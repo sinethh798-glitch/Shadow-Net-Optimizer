@@ -17,3 +17,6 @@ Starter Android project for Wi-Fi + mobile-data diagnostics.
 ## Build
 Use Android Studio or a compatible Android Gradle Plugin 8.7.3 + Gradle 8.9 + JDK 17.
 The project targets SDK 34 and compiles with SDK 35. If using Termux, ensure Android SDK platform 35 and build-tools are installed.
+
+
+V3 adds device-wide live traffic-rate monitoring, a rolling graph, ping/jitter diagnostics, Wi-Fi RSSI display, and manual speed snapshots. Live rates are approximate device-wide counters, not a guaranteed ISP speed or per-app measurement.
